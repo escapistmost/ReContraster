@@ -113,12 +113,6 @@ ln -sfn "$PWD/checkpoints/CreatiLayout/transformer" \
 export CREATILAYOUT_MODEL_PATH="$PWD/checkpoints/CreatiLayout_checkpoint"
 ```
 
-指标评估脚本如需使用美学模型，请额外设置 `AESTHETIC_CLIP_PATH` 和
-`AESTHETIC_HEAD_PATH`；Llama 示例入口使用 `LLAMA_MODEL_PATH` 及
-`LLAMA_IMAGE_1`/`LLAMA_IMAGE_2`。
-
-Set the API configuration in your shell. Do not commit API keys to the repository.
-
 ```bash
 read -s -p "API key: " RECONTRASTER_API_KEY
 echo
