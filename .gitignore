@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environments and editors
+.env
+.env.*
+.venv/
+venv/
+.vscode/
+.idea/
+
+# Model checkpoints
+checkpoints/
+models/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Generated files
+output/
+outputs/
+abla1/
+*.log
+gen_text.json
+gen_text_*.json
+
+# OS files
+.DS_Store
+Thumbs.db
