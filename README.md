@@ -212,16 +212,7 @@ Save this structure as `gen_text.json` and run `python tool_generate.py --json_o
 
 ## Acknowledgements
 
-This project uses [CreatiLayout](https://github.com/HuiZhang0812/CreatiLayout) and its SiamLayout implementation for layout-to-image generation. Please also refer to the [CreatiLayout model](https://huggingface.co/HuiZhang0812/CreatiLayout) and cite the original work when using this component.
-
-```bibtex
-@article{zhang2024creatilayout,
-  title={CreatiLayout: Siamese Multimodal Diffusion Transformer for Creative Layout-to-Image Generation},
-  author={Zhang, Hui and Hong, Dexiang and Gao, Tingwei and Wang, Yitong and Shao, Jie and Wu, Xinglong and Wu, Zuxuan and Jiang, Yu-Gang},
-  journal={arXiv preprint arXiv:2412.03859},
-  year={2024}
-}
-```
+This project uses [CreatiLayout](https://github.com/HuiZhang0812/CreatiLayout) and its SiamLayout implementation for layout-to-image generation.
 
 ## ⚠️ Notes
 
